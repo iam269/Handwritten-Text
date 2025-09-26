@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Handwritten Text</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Alex+Brush&family=Dancing+Script:wght@400..700&family=Pacifico&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="handwritten.png" />
+  </head>
+  <body>
+    <div class="container">
+      <h2>Handwriting Style Name</h2>
+      <input type="text" id="nameInput" placeholder="Enter your Name" />
+      <select id="fontSelector">
+        <option value="Alex Brush">Alex Brush</option>
+        <option value="Dancing Script">Dancing Script</option>
+        <option value="Pacifico">Pacifico</option>
+      </select>
+      <br />
+      <canvas id="nameCanvas" width="400" height="100"></canvas>
+      <br />
+      <button onclick="downloadImage()">Download Image</button>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
